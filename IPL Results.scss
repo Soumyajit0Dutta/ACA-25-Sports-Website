@@ -1,0 +1,134 @@
+*
+{
+    margin:0px;
+}
+body
+{
+    background:url("Indian team.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.IPL_team
+{
+    height:100vh;
+    width:65vw;
+    background-color: rgb(0,0,0,0.5);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    border-radius:30px;
+}
+.IPL_team .heading
+{
+    font-size:90%;
+    color:red;
+    text-transform: capitalize;
+}
+#first_row
+{
+    height:16vh;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding-left:40px;
+}
+#first_row .heading
+{
+    display:flex;
+    align-items:center;
+    color:red;
+}   
+.a
+{
+    height:fit-content;
+    width:fit-content;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:column-reverse;
+    font-size:120%;
+    font-weight:bold;
+    font-style:italic;
+    padding-left:30px;
+}
+#fullname
+{
+    line-height:30px;
+    min-width:250px;
+    border-radius:10px;
+    margin-top:20px;
+}
+#second_row
+{
+    height:16vh;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding-left:40px;
+}
+#second_row .heading
+{
+    display:flex;
+    align-items:center;
+    color:red;
+}   
+.b
+{
+    height:fit-content;
+    width:fit-content;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column-reverse;
+    font-size:120%;
+    font-weight:bold;
+    font-style:italic;
+    padding-left:30px;
+}
+#user_email
+{
+    line-height:30px;
+    min-width:400px;
+    border-radius:10px;
+    margin-top:20px;
+}
+#third_row
+{
+    height:16vh;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding-left:40px;
+}
+#third_row .heading
+{
+    display:flex;
+    align-items:center;
+    color:red;
+}
+#state
+{
+    height:30px;
+    min-width:200px;
+    border-radius:10px;
+    margin-left:20px;
+}
+.submit
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+#submit
+{
+    width:20%;
+    border-radius:14px;
+    background-color: aqua;
+    font-size:200%;
+    font-weight:bolder;
+    font-style:italic;
+    text-align: center;
+}
+#submit:hover
+{
+    background-color:rgb(63, 63, 148);
+}

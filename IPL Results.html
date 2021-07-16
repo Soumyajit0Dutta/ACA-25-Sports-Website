@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="IPL Results.scss">
+    </head>
+    <body>
+        <div class="IPL_team">
+            <forms id="forms">
+                <div id="first_row">
+                    <div class="heading">
+                    <h1>Name</h1>
+                    </div>
+                <div class="a">
+                    <label id="name_label">Full Name</label>
+                    <input id="fullname" type="text" name="name" required/>
+                </div>
+                </div>
+                <div id="second_row">
+                    <div class="heading">
+                    <h1>Email id</h1>
+                    </div>
+                <div class="b">
+                    <label id="email_label">Email .id</label>
+                    <input id="user_email" type="email" name="email" placeholder="abcde@1234gmail.com" required/>
+                </div>
+                </div>
+                <div id="third_row">
+                    <div class="heading">
+                        <h1>State</h1>
+                    </div>
+                    <select id ="state" name ="state">
+                        <option disabled="disabled" required selected="selected">--choose</option>
+                      <option> west bengal</option>
+                      <option> delhi</option>
+                      <option> punjab</option>
+                      <option> maharashtra</option>
+                    
+                      </select>
+                </div>
+                <div class="submit">
+                    <input id="submit" type="submit"/>
+                </div>
+                <h2 id="centers"> Testing Centres around you: <span id="result"></span><br>
+            </forms>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+        <script  src="IPL Results.js"></script>
+    </body>
+</html>
